@@ -1,0 +1,22 @@
+{
+  "name": "checklist-api",
+  "version": "1.0.0",
+  "description": "REST API for a checklist application",
+  "main": "app.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junhaohe-chris/checklist-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junhaohe-chris/checklist-api/issues"
+  },
+  "homepage": "https://github.com/junhaohe-chris/checklist-api#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
