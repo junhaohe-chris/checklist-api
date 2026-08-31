@@ -1,10 +1,12 @@
 {
   "name": "checklist-api",
   "version": "1.0.0",
+  "type": "module",
   "description": "REST API for a checklist application",
   "main": "app.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "node src/server.ts"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,10 @@
   "homepage": "https://github.com/junhaohe-chris/checklist-api#readme",
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.4.0",
+    "typescript": "^7.0.2"
   }
 }
