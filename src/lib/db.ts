@@ -9,9 +9,4 @@ const pool = new Pool({
   database: 'postgres',
 })
 
-const client = await pool.connect()
-const res = await client.query('SELECT NOW()')
-
-console.log(res.rows[0])
-
-client.release()
+export default pool;
